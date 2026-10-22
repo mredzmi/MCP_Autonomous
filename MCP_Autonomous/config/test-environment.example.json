@@ -1,0 +1,7 @@
+{
+  "name": "saucedemo",
+  "baseUrlEnv": "TEST_BASE_URL",
+  "usernameEnv": "TEST_USERNAME",
+  "passwordEnv": "TEST_PASSWORD",
+  "notes": "Secrets live only in .env. Copy to config/test-environment.json (git-ignored) for extra non-secret settings."
+}

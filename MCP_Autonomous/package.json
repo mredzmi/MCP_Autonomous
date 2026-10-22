@@ -1,0 +1,21 @@
+{
+  "name": "claude-qa-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Claude Code QA agent: Markdown skills + Playwright MCP (agent-driven) and Playwright Test (scripted).",
+  "scripts": {
+    "install:browsers": "playwright install chromium",
+    "validate": "node scripts/validate-config.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "playwright test",
+    "test:headless": "playwright test --headed=false",
+    "claude": "claude",
+    "mcp:list": "claude mcp list"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.0"
+  }
+}
